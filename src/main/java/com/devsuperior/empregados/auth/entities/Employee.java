@@ -1,4 +1,4 @@
-package com.devsuperior.bds03.entities;
+package com.devsuperior.empregados.auth.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

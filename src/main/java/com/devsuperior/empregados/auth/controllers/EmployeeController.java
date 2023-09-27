@@ -1,9 +1,10 @@
-package com.devsuperior.bds03.controllers;
+package com.devsuperior.empregados.auth.controllers;
 
 import java.net.URI;
 
 import javax.validation.Valid;
 
+import com.devsuperior.empregados.auth.dto.EmployeeDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -17,8 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.devsuperior.bds03.dto.EmployeeDTO;
-import com.devsuperior.bds03.services.EmployeeService;
+import com.devsuperior.empregados.auth.services.EmployeeService;
 
 @RestController
 @RequestMapping(value = "/employees")

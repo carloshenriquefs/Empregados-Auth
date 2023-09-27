@@ -12,7 +12,7 @@
 	<groupId>com.devsuperior</groupId>
 	<artifactId>bds03</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bds03</name>
+	<name>Empregados-Auth</name>
 	<description>Bootcamp Spring React DevSuperior</description>
 
 	<properties>

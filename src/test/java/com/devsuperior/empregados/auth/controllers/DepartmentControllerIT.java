@@ -1,4 +1,4 @@
-package com.devsuperior.bds03.controllers;
+package com.devsuperior.empregados.auth.controllers;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.bds03.tests.TokenUtil;
+import com.devsuperior.empregados.auth.tests.TokenUtil;
 
 @SpringBootTest
 @AutoConfigureMockMvc
