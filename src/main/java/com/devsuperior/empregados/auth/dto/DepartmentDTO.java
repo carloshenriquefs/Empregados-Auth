@@ -1,11 +1,8 @@
 package com.devsuperior.empregados.auth.dto;
 
-import java.io.Serializable;
-
 import com.devsuperior.empregados.auth.entities.Department;
 
-public class DepartmentDTO implements Serializable {
-	private static final long serialVersionUID = 1L;
+public class DepartmentDTO {
 	
 	public Long id;
 	public String name;

@@ -1,15 +1,21 @@
 package com.devsuperior.empregados.auth.dto;
 
-import java.io.Serializable;
-
 import com.devsuperior.empregados.auth.entities.Employee;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
-public class EmployeeDTO implements Serializable {
-	private static final long serialVersionUID = 1L;
+public class EmployeeDTO {
 	
 	private Long id;
+	
+	@NotBlank(message = "Campo requerido")
 	private String name;
+
+	@Email(message = "Email inválido")
 	private String email;
+	
+	@NotNull(message = "Campo requerido")
 	private Long departmentId;
 	
 	public EmployeeDTO() {
